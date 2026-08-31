@@ -2,7 +2,7 @@
 * LAMAVE — Brand Style Adaptation
 * Based on: Personal Template (BootstrapMade)
 * Version: Dark palette
-* Brand: LAMAVE · L'Associació Veïnal de la Marina del Prat Vermell
+* Brand: LAMAVE · La Asociación Vecinal de la Marina del Prat Vermell
 * ─────────────────────────────────────────────────────────────────────────────
 * COLOUR MAPPING (original → LAMAVE dark)
 *   #000000              → #1A1008  (background)
@@ -736,17 +736,19 @@ section,
   align-items: baseline;             /* NEW! */
 }                                    /* NEW! */
 
-.hero .mave {                        /* NEW! */
+.hero .hero-title .mave {            /* NEW! */
   margin: 0;                         /* NEW! */
   font-size: 120px;                  /* NEW! */
+  font-size: 7.2vw;					 /* NEW! */
   font-weight: 900;                  /* NEW! */
   font-family: var(--heading-font);  /* NEW! */
   color: var(--heading-color);       /* NEW! */
 }                                    /* NEW! */
 
-.hero .la {                          /* NEW! */
+.hero .hero-title .la {              /* NEW! */
   margin: 0;                         /* NEW! */
   font-size: 80px;                   /* NEW! */
+  font-size: 4.8vw; 				 /* NEW! */
   font-weight: 700;                  /* NEW! */
   font-family: var(--heading-font);  /* NEW! */
   color: var(--heading-color);       /* NEW! */
@@ -761,6 +763,7 @@ section,
 .hero p {
   margin: 5px 0 0 0;
   font-size: 20px;                   /* NEW! */
+  font-size: 1.2vw; 			     /* NEW! */
   font-weight: 300;                  /* NEW! */
   font-family: var(--dafault-font);  /* NEW! */
   color: var(--default-color);       /* NEW! */
